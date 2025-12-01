@@ -1,0 +1,75 @@
+cabal-version: 3.6
+name: aoc25
+version: 0
+
+common aoc
+  ghc-options: -Wall -O2 -threaded -rtsopts -with-rtsopts=-N12
+  default-language: GHC2024
+  default-extensions:
+  build-depends:
+    , base
+    , text >= 2.1.2
+    , regex-tdfa
+    , attoparsec
+    , containers
+    , array
+    , split
+    , unordered-containers
+    , async
+    , parallel
+    , linear
+    , hashable
+    , pqueue
+    , astar
+    , mtl
+    , maximal-cliques
+    , deepseq
+
+executable aoc1
+  import: aoc
+  main-is: aoc1.hs
+
+executable aoc2
+  import: aoc
+  main-is: aoc2.hs
+
+executable aoc3
+  import: aoc
+  main-is: aoc3.hs
+
+executable aoc4
+  import: aoc
+  main-is: aoc4.hs
+
+executable aoc5
+  import: aoc
+  main-is: aoc5.hs
+
+executable aoc6
+  import: aoc
+  main-is: aoc6.hs
+
+executable aoc7
+  import: aoc
+  main-is: aoc7.hs
+
+executable aoc8
+  import: aoc
+  main-is: aoc8.hs
+
+executable aoc9
+  import: aoc
+  main-is: aoc9.hs
+
+executable aoc10
+  import: aoc
+  main-is: aoc10.hs
+
+executable aoc11
+  import: aoc
+  main-is: aoc11.hs
+
+executable aoc12
+  import: aoc
+  main-is: aoc12.hs
+
