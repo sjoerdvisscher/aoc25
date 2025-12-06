@@ -24,6 +24,7 @@ common aoc
     , mtl
     , maximal-cliques
     , deepseq
+    , data-interval
 
 executable aoc1
   import: aoc
