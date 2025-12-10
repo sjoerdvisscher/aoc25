@@ -25,6 +25,7 @@ common aoc
     , maximal-cliques
     , deepseq
     , data-interval
+    , sbv
 
 executable aoc1
   import: aoc
